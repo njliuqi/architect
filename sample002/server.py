@@ -16,7 +16,7 @@ from threading import Thread
 clients = {}
 addresses = {}
 
-HOST = ''
+HOST = '0.0.0.0'
 PORT = 33000
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
